@@ -1,0 +1,15 @@
+.spreadsheet {
+  border-spacing: 0px;
+  font-family: Sans-serif; }
+  .spreadsheet * {
+    box-sizing: border-box; }
+  .spreadsheet td {
+    border: 1px solid #cccccc;
+    padding: 2px;
+    width: 200px; }
+    .spreadsheet td.focus {
+      border: 2px solid #aaee33; }
+    .spreadsheet td input {
+      width: 100%;
+      margin: 0;
+      border: 0; }
